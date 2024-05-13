@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Aziendale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .services, .portfolio, .case-history {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .service-item, .portfolio-item, .case-history-item {
+            background-color: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            flex: 1 1 calc(33.333% - 2rem);
+            box-sizing: border-box;
+        }
+        .case-history-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nome Azienda</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#chi-siamo">Chi Siamo</a>
+    <a href="#servizi">Servizi</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contatti">Contatti</a>
+    <a href="#case-history">Case History</a>
+</nav>
+
+<section id="home" class="container">
+    <h2>Home</h2>
+    <p>Benvenuti nella nostra azienda. Offriamo i migliori servizi per soddisfare le vostre esigenze.</p>
+</section>
+
+<section id="chi-siamo" class="container">
+    <h2>Chi Siamo</h2>
+    <p>La nostra azienda è leader nel settore, con anni di esperienza e un team di professionisti dedicati.</p>
+</section>
+
+<section id="servizi" class="container">
+    <h2>Servizi</h2>
+    <div class="services">
+        <div class="service-item">
+            <h3>Servizio 1</h3>
+            <p>Descrizione del servizio 1.</p>
+        </div>
+        <div class="service-item">
+            <h3>Servizio 2</h3>
+            <p>Descrizione del servizio 2.</p>
+        </div>
+        <div class="service-item">
+            <h3>Servizio 3</h3>
+            <p>Descrizione del servizio 3.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h3>Progetto 1</h3>
+            <p>Descrizione del progetto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Progetto 2</h3>
+            <p>Descrizione del progetto 2.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Progetto 3</h3>
+            <p>Descrizione del progetto 3.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contatti" class="container">
+    <h2>Contatti</h2>
+    <p>Per maggiori informazioni, contattaci al seguente indirizzo email: info@azienda.com</p>
+</section>
+
+<section id="case-history" class="container">
+    <h2>Case History</h2>
+    <div class="case-history">
+        <div class="case-history-item">
+            <h3>Progetto A</h3>
+            <img src="immagine1.jpg" alt="Progetto A">
+            <p>Descrizione del progetto A.</p>
+        </div>
+        <div class="case-history-item">
+            <h3>Progetto B</h3>
+            <img src="immagine2.jpg" alt="Progetto B">
+            <p>Descrizione del progetto B.</p>
+        </div>
+        <div class="case-history-item">
+            <h3>Progetto C</h3>
+            <img src="immagine3.jpg" alt="Progetto C">
+            <p>Descrizione del progetto C.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Nome Azienda. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
